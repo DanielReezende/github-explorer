@@ -1,0 +1,154 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header a {
+  color: #a8a8b3;
+
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.header a i {
+  font-weight: bold;
+}
+
+.content {
+  margin-top: 80px;
+}
+
+.repository-info {
+}
+
+.repository-info-header {
+  display: flex;
+  align-items: center;
+
+  gap: 24px;
+}
+
+.repository-info-header img {
+  width: 120px;
+  height: 120px;
+
+  border-radius: 50%;
+}
+
+.repository-info-description {
+  display: flex;
+  flex-direction: column;
+
+  gap: 8px;
+}
+
+.repository-info-description strong {
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 41px;
+
+  color: #3d3d4d;
+}
+
+.repository-info-description p {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 21px;
+
+  color: #737380;
+}
+
+.repository-numbers {
+  display: flex;
+  align-items: center;
+
+  margin-top: 40px;
+
+  gap: 80px;
+}
+
+.repository-number {
+  display: flex;
+  flex-direction: column;
+}
+
+.repository-number strong {
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 41px;
+
+  color: #3d3d4d;
+}
+
+.repository-number span {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 23px;
+
+  color: #6c6c80;
+}
+
+.issues-list {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+
+  margin-top: 120px;
+}
+
+
+.issues-list-item {
+  width: 100%;
+
+  padding: 16px;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  background-color: #ffffff;
+
+  border-radius: 4px;
+}
+
+
+.issues-list i {
+  font-size: 24px;
+
+  color: #c9c9d4;
+}
+
+.repo-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 24px;
+}
+
+.repo-wrapper img {
+  width: 80px;
+  height: 80px;
+
+  border-radius: 50%;
+}
+
+.issues-info {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.issues-info strong {
+  font-size: 24px;
+  line-height: 28px;
+
+  color: #3d3d4d;
+}
+
+.issues-info span {
+  font-size: 18px;
+  line-height: 20px;
+
+  color: #a8a8b3;
+}

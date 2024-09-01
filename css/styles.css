@@ -1,0 +1,120 @@
+.content {
+  margin-top: 80px;
+}
+
+.title {
+  font-size: 48px;
+  color: #3a3a3a;
+  width: 450px;
+  line-height: 56px;
+}
+
+.form-body {
+  margin-top: 40px;
+  max-width: 700px;
+  width: 100%;
+
+  display: flex;
+}
+
+.form-body input,
+.form-body button {
+  height: 70px;
+}
+
+.form-body input {
+  flex: 1;
+  padding: 0 24px;
+
+  border-radius: 4px 0 0 4px;
+  border: 1px solid transparent;
+  transition: border ease-in 0.2s;
+}
+
+.form-body input::placeholder {
+  color: #a8a8b3;
+}
+
+.form-body input:focus {
+  border: 1px solid #c9c9d4;
+}
+
+.form-body button {
+  width: 100%;
+  max-width: 210px;
+  border-radius: 0 4px 4px 0;
+  background-color: #04d361;
+  color: #ffff;
+
+  font-weight: bold;
+}
+
+.form-body button:hover {
+  filter: brightness(0.75);
+}
+
+.repos-list {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+
+  margin-top: 120px;
+}
+
+.repos-list-item {
+  width: 100%;
+
+  padding: 16px;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  background-color: #ffffff;
+
+  border-radius: 4px;
+}
+
+.repos-list-item:hover {
+  filter: brightness(0.9);
+}
+
+.repos-list-item i {
+  font-size: 24px;
+
+  color: #c9c9d4;
+}
+
+.repo-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 24px;
+}
+
+.repo-wrapper img {
+  width: 80px;
+  height: 80px;
+
+  border-radius: 50%;
+}
+
+.repos-info {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.repos-info strong {
+  font-size: 24px;
+  line-height: 28px;
+
+  color: #3d3d4d;
+}
+
+.repos-info span {
+  font-size: 18px;
+  line-height: 20px;
+
+  color: #a8a8b3;
+}
